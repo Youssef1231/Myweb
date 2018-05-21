@@ -23,4 +23,20 @@
         <param-name>pass</param-name>
         <param-value>111</param-value>
     </context-param>
+    <servlet>
+        <servlet-name>config</servlet-name>
+        <jsp-file>/jsp/configTest2.jsp</jsp-file>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>crazyit.org</param-value>
+        </init-param>
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>30</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>config</servlet-name>
+        <url-pattern>/jsp/config</url-pattern>
+    </servlet-mapping>
 </web-app>
