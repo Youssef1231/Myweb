@@ -11,7 +11,7 @@
     <title>Java bean test</title>
 </head>
 <body>
-<jsp:useBean id="p1" class="src.sPerson" scope="page"/>
+<jsp:useBean id="p1" class="web.src.Person" scope="page"/>
 <jsp:setProperty name="p1" property="name" value="crazyit.org"/>
 <jsp:setProperty name="p1" property="age" value="24"/>
 <jsp:getProperty name="p1" property="name"/>

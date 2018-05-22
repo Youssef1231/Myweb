@@ -39,4 +39,20 @@
         <servlet-name>config</servlet-name>
         <url-pattern>/jsp/config</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>firstServlet</servlet-name>
+        <servlet-class>web.src.FirstServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>firstServlet</servlet-name>
+        <url-pattern>/aa</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>web.src.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
 </web-app>
