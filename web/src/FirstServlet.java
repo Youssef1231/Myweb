@@ -24,9 +24,9 @@ public class FirstServlet extends HttpServlet {
 		out.println("<title>servlet test</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("your name:" + name+"</br>");
-		out.println("your gender:" + gender+"</br>");
-		out.println("nation:" + nation+"</br>");
+		out.println("your name:" + name+"</br><hr/>");
+		out.println("your gender:" + gender+"</br><hr/>");
+		out.println("nation:" + nation+"</br><hr/>");
 		out.println("your favorite color:"+"</br>");
 		for (String str:color) {
 			out.println(str);

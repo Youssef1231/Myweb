@@ -11,6 +11,10 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * @author Youssef
+ */
+@WebServlet(name="login",urlPatterns = {"/login"})
 public class LoginServlet extends HttpServlet {
 
 	/**
